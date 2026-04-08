@@ -1,11 +1,7 @@
 # 06 Html Formulaires
 
-HTML5_les_formulaires.md2024-04-02
 
 ## Cours 5 : Les Formulaires en HTML
-
-
-## Par Robert DIASSÉ
 
 
 ### Les Formulaires en HTML
@@ -17,12 +13,7 @@ Les formulaires en HTML permettent aux utilisateurs d'interagir avec une page we
 
 formulaire sont contenus à l'intérieur de cette balise. Éléments du Formulaire
 
-```html 1. Champs de Texte (<input type="text">) : Ces champs permettent aux utilisateurs de saisir du texte. Ils sont définis avec l'attribut type égal à "text". Par exemple : <label for="nom">Nom :</label> <input type="text" id="nom" name="nom"> 2. Champs de Nombre (<input type="number">) : Ces champs permettent aux utilisateurs de saisir des nombres. L'attribut type est défini à "number". Exemple : <label for="age">Age :</label> <input type="number" id="age" name="age"> 3. Champs d'E-mail (<input type="email">) : Ces champs sont destinés à la saisie d'adresses e-mail. L'attribut type est défini à "email". Exemple : <label for="mail">Mail :</label> <input type="email" id="mail" name="mail">
-```
-
-HTML5_les_formulaires.md2024-04-02
-
-```html 4. Champs de Téléphone (<input type="tel">) : Ces champs sont utilisés pour les numéros de téléphone. L'attribut type est défini à "tel". Exemple : <label for="telephone">Numéro de TEL :</label> <input type="tel" id="telephone" name="telephone" placeholder="+221 77 889 89 90">
+```html 1. Champs de Texte (<input type="text">) : Ces champs permettent aux utilisateurs de saisir du texte. Ils sont définis avec l'attribut type égal à "text". Par exemple : <label for="nom">Nom :</label> <input type="text" id="nom" name="nom"> 2. Champs de Nombre (<input type="number">) : Ces champs permettent aux utilisateurs de saisir des nombres. L'attribut type est défini à "number". Exemple : <label for="age">Age :</label> <input type="number" id="age" name="age"> 3. Champs d'E-mail (<input type="email">) : Ces champs sont destinés à la saisie d'adresses e-mail. L'attribut type est défini à "email". Exemple : <label for="mail">Mail :</label> <input type="email" id="mail" name="mail"> 4. Champs de Téléphone (<input type="tel">) : Ces champs sont utilisés pour les numéros de téléphone. L'attribut type est défini à "tel". Exemple : <label for="telephone">Numéro de TEL :</label> <input type="tel" id="telephone" name="telephone" placeholder="+221 77 889 89 90">
 ```
 
 Autres Types de Champs et Attributs Voici une liste d'autres types de champs et d'attributs couramment utilisés dans les formulaires HTML :
@@ -55,7 +46,7 @@ Exemple :
 ```sql <label for="pays">Pays :</label> <select id="pays" name="pays"> <option value="senegal">Sénégal</option> <option value="france">France</option> <option value="usa">USA</option> </select> Zone de Texte (<textarea>) : Les zones de texte permettent aux utilisateurs de saisir du texte sur plusieurs
 ```
 
-lignes. Exemple : HTML5_les_formulaires.md2024-04-02
+lignes. Exemple :
 
 ```code <label for="message">Message :</label> <textarea id="message" name="message" rows="4" cols="50"></textarea>
 ```
@@ -63,7 +54,7 @@ lignes. Exemple : HTML5_les_formulaires.md2024-04-02
 
 ### Attributs Additionnels
 
-Voici quelques attributs supplémentaires qui peuvent être utilisés pour personnaliser les champs de formulaire :
+Voici quelques attributs supplémentaires qui peuvent être utilisés pour personnaliser les champs de formulaire
 
 ```code Attributs pour <select> : size : Définit le nombre de lignes visibles dans le menu déroulant. multiple : Permet de sélectionner plusieurs options en même temps. Attributs pour <textarea> : rows : Définit le nombre de lignes de texte visibles dans la zone de texte. cols : Définit le nombre de colonnes de texte visibles dans la zone de texte.
 ```
