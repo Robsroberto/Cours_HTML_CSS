@@ -1,9 +1,5 @@
 # 03 Html Liens
 
-HTML2_les liens.md2023-12-24
-
-## Par Robert DIASSÉ
-
 
 ## Cours 2 : Les Liens en HTML - Navigation et Structure
 
@@ -43,7 +39,6 @@ Les chemins absolus dans un système de fichiers dépendent du système d'exploi
 
 ### Windows
 
-HTML2_les liens.md2023-12-24
 
 ```code Sur Windows, les chemins absolus commencent par la lettre de lecteur suivi de :\. Par exemple : C:\Users\nom_utilisateur\Documents\mon_fichier.txt
 ```
@@ -85,7 +80,7 @@ Navigation Entre Dossiers parents
 ```code Utilisons ../ pour remonter d'un niveau dans la structure des dossiers. projet/ |-- dossier/ |   |-- page.html |-- index.html |-- autreDossier/ |   |-- autrePage.html
 ```
 
-HTML2_les liens.md2023-12-24 Pour référencer la page.html étant dans autrePage.html, nous utiliserions le chemin relatif :
+Pour référencer la page.html étant dans autrePage.html, nous utiliserions le chemin relatif :
 
 ```code ../dossier/page.html.
 ```
@@ -117,7 +112,7 @@ page ou ressource liée par le lien. Il détermine le contexte de navigation pou
 
 ### 3. Lien avec Ancre pour Déplacement sur la Même Page
 
-HTML2_les liens.md2023-12-24 Lorsque vous souhaitez créer des liens permettant de déplacer l'utilisateur vers une section spécifique de la même page, vous pouvez utiliser des liens ancres. Cela se fait en spécifiant l'ID ou le nom de la destination
+Lorsque vous souhaitez créer des liens permettant de déplacer l'utilisateur vers une section spécifique de la même page, vous pouvez utiliser des liens ancres. Cela se fait en spécifiant l'ID ou le nom de la destination
 
 ```code comme une ancre dans le lien. Assurez-vous que la section de destination a un attribut id ou name
 ```
@@ -149,11 +144,7 @@ indiquer que la destination est sur la même page. Cette technique est particuli
 ### 5. Lien avec Chemin Relatif
 
 
-```html <!-- Lien vers une page dans le même dossier --> <a href="autre-page.html">Autre Page</a>
-```
-
-
-```html <!-- Lien vers une page dans un sous dossier du nom de pages --> <a href="pages/autre-page.html">Autre Page</a> <!-- Lien vers une page dans un dossier parent --> <a href="../autre-page.html">Autre Page</a> La balise <a> (lien hypertexte) en HTML prend plusieurs attributs qui définissent son comportement, sa cible
+```html <!-- Lien vers une page dans le même dossier --> <a href="autre-page.html">Autre Page</a> <!-- Lien vers une page dans un sous dossier du nom de pages --> <a href="pages/autre-page.html">Autre Page</a> <!-- Lien vers une page dans un dossier parent --> <a href="../autre-page.html">Autre Page</a> La balise <a> (lien hypertexte) en HTML prend plusieurs attributs qui définissent son comportement, sa cible
 ```
 
 et d'autres propriétés. Voici les attributs les plus couramment utilisés avec leurs valeurs et utilisations :
@@ -173,16 +164,12 @@ nouvelle fenêtre ou un nouvel onglet.
 
 Valeur : Nom du fichier à télécharger. Utilisation : Indique que la cible du lien doit être téléchargée au lieu d'être naviguée.
 
-```html <a href="document.pdf" download="mon_document.pdf">Télécharger le Document</a> 4. rel (Relations) : Valeur : Différentes valeurs, telles que "nofollow", "noopener", "noreferrer", etc.
+```code Document</a> 4. rel (Relations) : Valeur : Différentes valeurs, telles que "nofollow", "noopener", "noreferrer", etc.
 ```
 
 Utilisation : Définit la relation entre le document actuel et la ressource liée.
 
-```html <a href="https://www.example.com" rel="nofollow">Lien avec l'Attribut Nofollow</a>
-```
-
-
-```code 5. title :
+```html <a href="https://www.example.com" rel="nofollow">Lien avec l'Attribut Nofollow</a> 5. title :
 ```
 
 Valeur : Texte descriptif. Utilisation : Fournit un texte descriptif qui apparaît généralement comme une info-bulle lorsqu'on survole le lien.
