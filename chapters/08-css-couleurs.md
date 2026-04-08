@@ -1,11 +1,7 @@
 # 08 Css Couleurs
 
-CSS_les Couleurs.md2024-03-05
 
 ## CSS : Les Couleurs
-
-
-## Par Robert DIASSÉ
 
 
 ### Chapitre CSS : Les Couleurs
@@ -33,12 +29,7 @@ On peut aussi utiliser une version courte du code hexadécimal avec trois chiffr
 
 Dans ce cas, chaque chiffre est répété pour représenter les valeurs RVB.
 
-```code 3. Utilisation de la fonction rgb()
-```
-
-CSS_les Couleurs.md2024-03-05
-
-```code La fonction rgb() permet de spécifier une couleur en utilisant les valeurs de rouge, vert et bleu dans une
+```code 3. Utilisation de la fonction rgb() La fonction rgb() permet de spécifier une couleur en utilisant les valeurs de rouge, vert et bleu dans une
 ```
 
 plage de 0 à 255. Par exemple :
@@ -63,10 +54,10 @@ luminosité. Les valeurs sont définies comme suit : Teinte (H) : une valeur ent
 
 rayon spécifié.
 
-```code Les filtres CSS, tels que brightness(), contrast(), blur(), sepia() et bien d'autres, permettent d'appliquer des effets spéciaux aux couleurs. Par exemple, brightness(200%) augmente la luminosité de la couleur, tandis que blur(5px) ajoute un flou à la couleur. .image-floue { filter: blur(5px); /* Applique un flou de 5 pixels */ } Dégradé linéaire linear-gradient() : La fonction linear-gradient() en CSS permet de créer un dégradé de couleur linéaire entre deux ou
+```code Les filtres CSS, tels que brightness(), contrast(), blur(), sepia() et bien d'autres, permettent d'appliquer des effets spéciaux aux couleurs. Par exemple, brightness(200%) augmente la luminosité de la couleur, tandis que blur(5px) ajoute un flou à la couleur. .image-floue { filter: blur(5px); /* Applique un flou de 5 pixels */ Dégradé linéaire linear-gradient() : La fonction linear-gradient() en CSS permet de créer un dégradé de couleur linéaire entre deux ou
 ```
 
-plusieurs couleurs, suivant une direction spécifiée. Voici comment elle fonctionne en détail : CSS_les Couleurs.md2024-03-05
+plusieurs couleurs, suivant une direction spécifiée. Voici comment elle fonctionne en détail :
 
 ### Syntaxe de base :
 
@@ -87,7 +78,13 @@ direction : Spécifie la direction du dégradé. Cela peut être défini en util
 
 **2. Dégradé de gauche à droite (du vert au jaune) :**
 
-```javascript linear-gradient(to right, green, yellow); 3. Dégradé en diagonale (du violet au cyan) : linear-gradient(45deg, violet, cyan);
+```code linear-gradient(to right, green, yellow);
+```
+
+
+**3. Dégradé en diagonale (du violet au cyan) :**
+
+```code linear-gradient(45deg, violet, cyan);
 ```
 
 
@@ -104,7 +101,7 @@ Dans cet exemple, le dégradé va du rouge au jaune sur la première moitié, pu
 ```code La fonction linear-gradient() crée une image de dégradé qui peut être utilisée comme valeur de
 ```
 
-propriété CSS. Cette image est ensuite appliquée comme arrière-plan à l'élément spécifié. Les couleurs spécifiées dans la fonction sont mélangées les unes aux autres le long de la ligne ou de l'axe défini par la direction, créant ainsi une transition en douceur d'une couleur à l'autre. CSS_les Couleurs.md2024-03-05 Vous pouvez ajuster la répartition des couleurs en utilisant des pourcentages pour définir les points d'arrêt le long de l'axe. Cela permet de contrôler précisément où chaque couleur commence et se termine dans le dégradé.
+propriété CSS. Cette image est ensuite appliquée comme arrière-plan à l'élément spécifié. Les couleurs spécifiées dans la fonction sont mélangées les unes aux autres le long de la ligne ou de l'axe défini par la direction, créant ainsi une transition en douceur d'une couleur à l'autre. Vous pouvez ajuster la répartition des couleurs en utilisant des pourcentages pour définir les points d'arrêt le long de l'axe. Cela permet de contrôler précisément où chaque couleur commence et se termine dans le dégradé.
 
 ```code La fonction linear-gradient() est utile pour créer des arrière-plans et des effets visuels intéressants sur les
 ```
@@ -134,7 +131,7 @@ Dans cet exemple :
 ```code circle indique une forme de cercle pour le dégradé. at 50% 50% définit le point central du dégradé au centre de l'élément. red, yellow et green sont les couleurs utilisées dans le dégradé, sans positions spécifiques, ce qui
 ```
 
-signifie qu'elles se fondent progressivement les unes dans les autres à partir du centre vers l'extérieur. Propriétés CSS liées à la couleur En plus des méthodes de spécification de couleur, voici quelques propriétés CSS importantes qui peuvent être utilisées pour manipuler les couleurs : CSS_les Couleurs.md2024-03-05
+signifie qu'elles se fondent progressivement les unes dans les autres à partir du centre vers l'extérieur. Propriétés CSS liées à la couleur En plus des méthodes de spécification de couleur, voici quelques propriétés CSS importantes qui peuvent être utilisées pour manipuler les couleurs :
 
 ```code color : spécifie la couleur du texte background-color : spécifie la couleur de fond d'un élément border-color : spécifie la couleur des bordures box-shadow : spécifie la couleur de l'ombre d'une boîte text-shadow : spécifie la couleur de l'ombre du texte
 ```
