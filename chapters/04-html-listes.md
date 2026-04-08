@@ -1,9 +1,5 @@
 # 04 Html Listes
 
-HTML3_Les listes.md2023-12-24
-
-## Par Robert DIASSÉ
-
 
 ## Cours 3 : Les Listes en HTML
 
@@ -31,12 +27,7 @@ Pommes Oranges Bananes
 
 **Attributs Possibles :**
 
-```html type: Définit le type de puce utilisé. Les valeurs courantes sont disc, circle, et square. <ul type="circle"> <li>Élément 1</li> <li>Élément 2</li> </ul>
-```
-
-HTML3_Les listes.md2023-12-24
-
-```code Vous avez raison, j'ai omis de mentionner l'attribut start pour la balise <ol>. Cet attribut permet de spécifier
+```html type: Définit le type de puce utilisé. Les valeurs courantes sont disc, circle, et square. <ul type="circle"> <li>Élément 1</li> <li>Élément 2</li> </ul> Vous avez raison, j'ai omis de mentionner l'attribut start pour la balise <ol>. Cet attribut permet de spécifier
 ```
 
 la valeur de départ de la numérotation. Voici une mise à jour de la section pertinente :
@@ -64,7 +55,7 @@ Cet exemple commencera la numérotation à partir de 5, donnant comme résultat 
 ```code 3. Liste de Définition <dl> (Definition List)
 ```
 
-La liste de définition est utilisée pour définir des termes. Chaque terme est suivi de sa définition. HTML3_Les listes.md2023-12-24
+La liste de définition est utilisée pour définir des termes. Chaque terme est suivi de sa définition.
 
 
 
@@ -93,7 +84,7 @@ Il est possible d'imbriquer des listes à l'intérieur d'autres listes pour cré
 ```html <ul> <li>Fruits <ul> <li>Pommes</li> <li>Oranges</li> </ul> </li> <li>Légumes <ul> <li>Carottes</li> <li>Pommes de terre</li> </ul> </li> </ul>
 ```
 
-Fruits Pommes HTML3_Les listes.md2023-12-24 Oranges Légumes Carottes Pommes de terre En résolvant l'imbrication de la liste, commencez par le niveau le plus élevé et descendez jusqu'au niveau le plus bas.
+Fruits Pommes Oranges Légumes Carottes Pommes de terre En résolvant l'imbrication de la liste, commencez par le niveau le plus élevé et descendez jusqu'au niveau le plus bas.
 
 ## Conclusion
 
