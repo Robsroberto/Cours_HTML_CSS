@@ -1,9 +1,5 @@
 # Introduction au CSS
 
-Intro CSS.md2023-12-26
-
-## Par Robert DIASSÉ
-
 
 ## Cours 4 : Introduction au CSS
 
@@ -24,19 +20,14 @@ Séparation des Responsabilités : Le CSS permet de séparer la structure (HTML)
 
 La syntaxe CSS de base suit le modèle:
 
-```code selecteur { propriete: valeur(s); ... propriete n : valeur(s) }
+```code selecteur { propriete: valeur(s); ... propriete n : valeur(s)
 ```
 
 
 ### Exemple :
 
 
-```code body { font-family: 'Helvetica', sans-serif;
-```
-
-Intro CSS.md2023-12-26
-
-```css background-color: red; color: white; } h1 { font-size: 24px; color: yellow; }
+```css body { font-family: 'Helvetica', sans-serif; background-color: red; color: white; h1 { font-size: 24px; color: yellow;
 ```
 
 
@@ -44,18 +35,18 @@ Intro CSS.md2023-12-26
 
 Les sélecteurs CSS déterminent quels éléments dans le document seront stylisés. Sélecteur d'Élément html : Sélectionne tous les éléments du type spécifié.
 
-```css p { font-size: 16px; }
+```css p { font-size: 16px;
 ```
 
 Sélecteur de Classe : Sélectionne tous les éléments avec la classe spécifiée.
 
-```code .important { font-weight: bold; }
+```code .important { font-weight: bold;
 ```
 
 Sélecteur d'ID : Sélectionne un élément avec l'ID spécifié.
 
 ```code
-#header { background-color: black; color: white; }
+#header { background-color: black; color: white;
 ```
 
 
@@ -66,9 +57,9 @@ SASS (Syntactically Awesome Stylesheets) et SCSS (Sassy CSS) sont des préproces
 ```code $couleurPrincipale: #3498db body background-color: $couleurPrincipale
 ```
 
-Intro CSS.md2023-12-26 SCSS : Utilise une syntaxe similaire à CSS avec des extensions.
+SCSS : Utilise une syntaxe similaire à CSS avec des extensions.
 
-```code $couleurPrincipale: #3498db; body { background-color: $couleurPrincipale; }
+```code $couleurPrincipale: #3498db; body { background-color: $couleurPrincipale;
 ```
 
 
@@ -76,7 +67,7 @@ Intro CSS.md2023-12-26 SCSS : Utilise une syntaxe similaire à CSS avec des exte
 
 Il existe trois principales méthodes pour intégrer du CSS dans une page HTML.
 
-```html 1. Balise <style> Utiliser la balise <style> dans l'en-tête HTML pour incorporer du CSS directement dans le document. <!DOCTYPE html> <html lang="fr"> <head> <style> body { font-family: 'Arial', sans-serif; } </style> </head> <body> <!-- Contenu de la page --> </body> </html> 2. Attribut style Utiliser l'attribut style directement dans les balises HTML pour appliquer des styles à des éléments
+```html 1. Balise <style> Utiliser la balise <style> dans l'en-tête HTML pour incorporer du CSS directement dans le document. <!DOCTYPE html> <html lang="fr"> <head> <style> body { font-family: 'Arial', sans-serif; </style> </head> <body> <!-- Contenu de la page --> </body> </html> 2. Attribut style Utiliser l'attribut style directement dans les balises HTML pour appliquer des styles à des éléments
 ```
 
 spécifiques.
@@ -86,11 +77,7 @@ spécifiques.
 
 Fichier CSS (style.css)
 
-```code body { background-color: brown;
-```
-
-
-```code color: grey; }
+```code body { background-color: brown; color: grey;
 ```
 
 Page HTML
