@@ -1,6 +1,5 @@
 # 02 Html Textes
 
-HTML1_les textes.md2023-12-13
 
 ## Cours 1 : Structuration de Document Web avec HTML -
 
@@ -24,12 +23,7 @@ HTML (HyperText Markup Language) est le langage standard utilisé pour créer et
 
 l'affichage sur différents appareils.
 
-```html <title> : Définit le titre de la page, affiché dans l'onglet du navigateur. <body> : Contient le contenu visible de la page. 1. Paragraphe - <p> (Paragraphe)
-```
-
-HTML1_les textes.md2023-12-13
-
-```html La balise <p> est utilisée pour définir des paragraphes de texte. Elle crée un espace vertical avant et après le
+```html <title> : Définit le titre de la page, affiché dans l'onglet du navigateur. <body> : Contient le contenu visible de la page. 1. Paragraphe - <p> (Paragraphe) La balise <p> est utilisée pour définir des paragraphes de texte. Elle crée un espace vertical avant et après le
 ```
 
 texte. Exemple :
@@ -52,7 +46,7 @@ Exemple :
 ```html <p>Ceci est une ligne.<br>Et voici une nouvelle ligne.</p> 5. Ligne Horizontale - <hr> (Horizontal Rule) La balise <hr> crée une ligne horizontale pour diviser le contenu.
 ```
 
-Exemple : HTML1_les textes.md2023-12-13
+Exemple :
 
 ```html <p>Ceci est un paragraphe.</p> <hr> <p>Et voici un autre paragraphe.</p> 6. Commentaires - <!-- ... -->
 ```
@@ -81,11 +75,7 @@ Exemple :
 
 Exemple :
 
-```html <blockquote> <p>La vie est vraiment simple, mais nous insistons à la rendre compliquée.</p>
-```
-
-
-```code <footer>Confucius</footer> </blockquote> <q> et <cite> (Citation Courte et Source) <q> : Indique une citation courte. <cite> : Indique la source de la citation.
+```html <blockquote> <p>La vie est vraiment simple, mais nous insistons à la rendre compliquée.</p> <footer>Confucius</footer> </blockquote> <q> et <cite> (Citation Courte et Source) <q> : Indique une citation courte. <cite> : Indique la source de la citation.
 ```
 
 Exemple :
@@ -113,7 +103,7 @@ Exemple :
 ```html <p>E=mc<sup>2</sup></p> <p>H<sub>2</sub>O</p> <mark> (Mise en Évidence) La balise <mark> est utilisée pour mettre en évidence une partie de texte.
 ```
 
-Exemple : HTML1_les textes.md2023-12-13
+Exemple :
 
 ```html <p>Cette information est <mark>importante</mark>.</p> <u> (Souligné) La balise <u> est utilisée pour indiquer du texte souligné.
 ```
