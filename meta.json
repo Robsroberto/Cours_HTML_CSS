@@ -1,0 +1,24 @@
+{
+  "slug": "html-css",
+  "title": "HTML & CSS — Du Débutant au Pro",
+  "description": "Maîtrise les fondamentaux du web : structure HTML, mise en forme CSS, layouts modernes et responsive design.",
+  "level": "débutant",
+  "price": 2000,
+  "free_chapters": 11,
+  "tags": ["HTML", "CSS", "Responsive"],
+  "version": "1.0.0",
+  "chapters": [
+    {"file": "01-introduction.md",  "title": "Introduction au Web"},
+    {"file": "02-textes.md",         "title": "HTML — Les Textes"},
+    {"file": "03-liens.md",          "title": "HTML — Les Liens"},
+    {"file": "04-listes.md",         "title": "HTML — Les Listes"},
+    {"file": "05-tableaux.md",       "title": "HTML — Les Tableaux"},
+    {"file": "06-formulaires.md",    "title": "HTML — Les Formulaires"},
+    {"file": "07-intro-css.md",      "title": "Introduction au CSS"},
+    {"file": "08-couleurs.md",       "title": "CSS — Les Couleurs"},
+    {"file": "09-selecteurs.md",     "title": "CSS — Sélecteurs Avancés"},
+    {"file": "10-alignement.md",     "title": "CSS — Alignement & Flexbox"},
+    {"file": "11-grid-animation.md", "title": "CSS — Grid & Animations"},
+    {"file": "12-responsivite.md",   "title": "Responsivité & Bonnes Pratiques"}
+  ]
+}
