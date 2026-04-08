@@ -1,11 +1,7 @@
 # 11 Css Grid
 
-CSS_Grid_et_Animation.md2024-04-02
 
 ## CSS: Le Display grid et les animations
-
-
-## Par Robert DIASSÉ
 
 
 ### 1. Introduction au Display Grid
@@ -17,7 +13,7 @@ Le Display Grid crée une grille bidimensionnelle composée de lignes et de colo
 
 Exemple :
 
-```code .container { display: grid; }
+```code .container { display: grid;
 ```
 
 Création de Lignes et de Colonnes
@@ -27,7 +23,7 @@ Création de Lignes et de Colonnes
 
 Exemple :
 
-```css .container { display: grid; grid-template-rows: 100px 200px; /* Crée deux lignes de hauteurs différentes */ grid-template-columns: 1fr 2fr; /* Crée deux colonnes avec des largeurs flexibles */ }
+```css .container { display: grid; grid-template-rows: 100px 200px; /* Crée deux lignes de hauteurs différentes */ grid-template-columns: 1fr 2fr; /* Crée deux colonnes avec des largeurs flexibles */
 ```
 
 Placement des Éléments dans la Grille
@@ -35,9 +31,9 @@ Placement des Éléments dans la Grille
 ```code Les éléments HTML peuvent être placés dans la grille en utilisant les propriétés grid-row et grid-column.
 ```
 
-Exemple : CSS_Grid_et_Animation.md2024-04-02
+Exemple :
 
-```code .item { grid-row: 1 / 3; /* Place l'élément sur les lignes 1 à 3 */ grid-column: 2 / 4; /* Place l'élément sur les colonnes 2 à 4 */ }
+```code .item { grid-row: 1 / 3; /* Place l'élément sur les lignes 1 à 3 */ grid-column: 2 / 4; /* Place l'élément sur les colonnes 2 à 4 */
 ```
 
 
@@ -49,26 +45,25 @@ Exemple : CSS_Grid_et_Animation.md2024-04-02
 
 l'organisation visuelle des éléments. Exemple :
 
-```code .container { display: grid; grid-template-areas: "header header header" "sidebar main main" "footer footer footer"; } grid-gap La propriété grid-gap définit l'espacement entre les lignes et les colonnes de la grille.
+```code .container { display: grid; grid-template-areas: "header header header" "sidebar main main" "footer footer footer"; grid-gap La propriété grid-gap définit l'espacement entre les lignes et les colonnes de la grille.
 ```
 
 Exemple :
 
-```css .container { display: grid; grid-gap: 20px; /* Espacement de 20 pixels entre les lignes et les colonnes */ } justify-items et align-items
+```css .container { display: grid; grid-gap: 20px; /* Espacement de 20 pixels entre les lignes et les colonnes */ justify-items et align-items
 ```
 
 Ces propriétés permettent d'aligner les éléments dans les cellules de la grille sur l'axe horizontal et vertical. Exemple :
 
-```code .container { display: grid; justify-items: center; /* Centre les éléments horizontalement */ align-items: center; /* Centre les éléments verticalement */ }
+```code .container { display: grid; justify-items: center; /* Centre les éléments horizontalement */ align-items: center; /* Centre les éléments verticalement */
 ```
 
-CSS_Grid_et_Animation.md2024-04-02
 
 ### Ateliers Pratiques
 
 Atelier : Créer une Grille 1. Créez un document HTML avec un conteneur div ayant la classe "grid-container". 2. Appliquez le style CSS suivant pour déclarer le conteneur comme une grille et définir deux lignes et trois colonnes.
 
-```css .grid-container { display: grid; grid-template-rows: 100px 200px; grid-template-columns: 1fr 2fr 1fr; } 3. Ajoutez quelques éléments enfants dans le conteneur et utilisez les propriétés grid-row et grid- column pour les placer dans la grille. Utiliser grid-template-areas
+```css .grid-container { display: grid; grid-template-rows: 100px 200px; grid-template-columns: 1fr 2fr 1fr; 3. Ajoutez quelques éléments enfants dans le conteneur et utilisez les propriétés grid-row et grid- column pour les placer dans la grille. Utiliser grid-template-areas
 ```
 
 
@@ -85,11 +80,11 @@ Atelier : Créer une Grille 1. Créez un document HTML avec un conteneur div aya
 
 Chaque ligne de la chaîne représente une ligne dans la grille et chaque caractère représente une cellule. Utilisez des points (.) pour représenter des cellules vides et des lettres ou des noms pour identifier les zones. Exemple :
 
-```code .grid-container { display: grid; grid-template-areas: "header header header" "sidebar main main" "footer footer footer"; }
+```code .grid-container { display: grid; grid-template-areas: "header header header" "sidebar main main" "footer footer footer";
 ```
 
 
-**3. Organiser les Éléments dans les Zones :** CSS_Grid_et_Animation.md2024-04-02
+**3. Organiser les Éléments dans les Zones :**
 
 ```code Utilisez la propriété grid-area sur chaque élément pour spécifier dans quelle zone il doit être
 ```
@@ -101,7 +96,7 @@ placé.
 
 Exemple :
 
-```code /*ces calsses ont été donné aux fils du container grid pour les repartir selon le grid-template-area */ .item-header { grid-area: header; } .item-sidebar { grid-area: sidebar; } .item-main { grid-area: main; } .item-footer { grid-area: footer; } Expérimenter avec grid-gap, justify-items et align-items pour le conteneur et align- self et justify-self pour les fils
+```code /*ces calsses ont été donné aux fils du container grid pour les repartir selon le grid-template-area */ .item-header { grid-area: header; .item-sidebar { grid-area: sidebar; .item-main { grid-area: main; .item-footer { grid-area: footer; Expérimenter avec grid-gap, justify-items et align-items pour le conteneur et align- self et justify-self pour les fils
 ```
 
 1. Ajouter des Espacements entre les Lignes et les Colonnes :
@@ -111,7 +106,7 @@ Exemple :
 
 grille. Vous pouvez utiliser des valeurs en pixels, en pourcentage ou d'autres unités de mesure. Exemple :
 
-```css .grid-container { display: grid; grid-gap: 20px; /* Espacement de 20 pixels entre les lignes et les colonnes */ }
+```css .grid-container { display: grid; grid-gap: 20px; /* Espacement de 20 pixels entre les lignes et les colonnes */
 ```
 
 
@@ -125,9 +120,9 @@ selon l'axe horizontal et vertical.
 ```code Vous pouvez utiliser les valeurs start, end, center, stretch, etc.
 ```
 
-Exemple : CSS_Grid_et_Animation.md2024-04-02
+Exemple :
 
-```code .grid-container { display: grid; justify-items: center; /* Centre les éléments horizontalement */ align-items: center; /* Centre les éléments verticalement */ }
+```code .grid-container { display: grid; justify-items: center; /* Centre les éléments horizontalement */ align-items: center; /* Centre les éléments verticalement */
 ```
 
 Suivez ces étapes simples et approfondissez les, vous pourrez facilement expérimenter avec les fonctionnalités
@@ -151,7 +146,7 @@ Voici quelques techniques courantes :
 
 CSS sur une certaine durée. Exemple :
 
-```code .element { transition: transform 0.3s ease-in-out; } .element:hover { transform: scale(1.2); }
+```code .element { transition: transform 0.3s ease-in-out; .element:hover { transform: scale(1.2);
 ```
 
 Dans cet exemple, lorsqu'un élément est survolé, il sera agrandi avec une transition fluide de 0.3 seconde.
@@ -161,17 +156,17 @@ Dans cet exemple, lorsqu'un élément est survolé, il sera agrandi avec une tra
 
 utilisées pour animer les éléments dans l'espace 2D ou 3D. Exemple :
 
-```code .element { transition: transform 0.3s ease-in-out; } .element:hover { transform: rotate(45deg); }
+```code .element { transition: transform 0.3s ease-in-out; .element:hover { transform: rotate(45deg);
 ```
 
-CSS_Grid_et_Animation.md2024-04-02 Cet exemple fait tourner l'élément de 45 degrés lorsqu'il est survolé. 2. Utilisation de Keyframes pour des Animations Personnalisées Les keyframes en CSS permettent de définir des étapes intermédiaires d'une animation en spécifiant explicitement les états initiaux et finaux ainsi que les états intermédiaires.
+Cet exemple fait tourner l'élément de 45 degrés lorsqu'il est survolé. 2. Utilisation de Keyframes pour des Animations Personnalisées Les keyframes en CSS permettent de définir des étapes intermédiaires d'une animation en spécifiant explicitement les états initiaux et finaux ainsi que les états intermédiaires.
 
 ```code Définition de Keyframes : Les keyframes sont définis avec l'at-rule @keyframes, suivi d'un nom
 ```
 
 personnalisé. Exemple :
 
-```code @keyframes shake { 0% { transform: translateX(0); } 25% { transform: translateX(10px); } 50% { transform: translateX(-10px); } 75% { transform: translateX(10px); } 100% { transform: translateX(0); } }
+```code @keyframes shake { 0% { transform: translateX(0); } 25% { transform: translateX(10px); } 50% { transform: translateX(-10px); } 75% { transform: translateX(10px); } 100% { transform: translateX(0); }
 ```
 
 Application des Keyframes : Les keyframes définis peuvent ensuite être appliqués à un élément en
@@ -181,7 +176,7 @@ Application des Keyframes : Les keyframes définis peuvent ensuite être appliqu
 
 Exemple :
 
-```code .element { animation: shake 0.5s infinite; } Compréhension des Valeurs de Timing : Les valeurs comme ease, ease-in, ease-out, ease-in-out, linear, etc., définissent comment l'animation progresse dans le temps. Par exemple : ease : L'animation commence lentement, accélère puis ralentit à la fin. ease-in : L'animation commence lentement et accélère progressivement. ease-out : L'animation commence rapidement et ralentit progressivement. ease-in-out : L'animation commence lentement, accélère, puis ralentit à nouveau. linear : L'animation progresse de manière linéaire à travers le temps.
+```code .element { animation: shake 0.5s infinite; Compréhension des Valeurs de Timing : Les valeurs comme ease, ease-in, ease-out, ease-in-out, linear, etc., définissent comment l'animation progresse dans le temps. Par exemple : ease : L'animation commence lentement, accélère puis ralentit à la fin. ease-in : L'animation commence lentement et accélère progressivement. ease-out : L'animation commence rapidement et ralentit progressivement. ease-in-out : L'animation commence lentement, accélère, puis ralentit à nouveau. linear : L'animation progresse de manière linéaire à travers le temps.
 ```
 
 
@@ -195,9 +190,9 @@ Exemple :
 ```code Utilisez l'at-rule @keyframes pour définir les étapes intermédiaires de votre animation.
 ```
 
-Définissez les transformations nécessaires à chaque étape. CSS_Grid_et_Animation.md2024-04-02 Exemple :
+Définissez les transformations nécessaires à chaque étape. Exemple :
 
-```code @keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+```code @keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); }
 ```
 
 
@@ -208,7 +203,7 @@ Définissez les transformations nécessaires à chaque étape. CSS_Grid_et_Anima
 
 Spécifiez la durée, le type de timing et d'autres options d'animation selon vos besoins. Exemple :
 
-```code .element { animation: rotate 2s linear infinite; }
+```code .element { animation: rotate 2s linear infinite;
 ```
 
 
@@ -230,7 +225,7 @@ voici les principales propriétés CSS pour les conteneurs flex et les élément
 ```code 1. order: Définit l'ordre des éléments flexibles à l'intérieur du conteneur flex. 2. flex-grow: Détermine la capacité de l'élément à s'étendre pour remplir l'espace disponible dans le
 ```
 
-conteneur flex. CSS_Grid_et_Animation.md2024-04-02
+conteneur flex.
 
 ```code 3. flex-shrink: Détermine la capacité de l'élément à se rétrécir pour éviter le dépassement de l'espace
 ```
@@ -266,7 +261,7 @@ une seule propriété(nommée).
 ```code 4. justify-self: Aligne un élément grid le long de l'axe de la colonne. 5. align-self: Aligne un élément grid le long de l'axe de la ligne.
 ```
 
-Maintenant que vous avez un aperçu de ces concepts clès approfondissez en ajoutant des propriété et en modifiant le comportement aussi de votre grille que de vos animations ces liens vont vous y aider : pour les alignement dont le grid MDN LACONSOLE JENSEIGN JENSEIGN pour les animations avec lesquelles vous pouvez vous inspirer, comprendre et approfondire HUBSPOT CSS_Grid_et_Animation.md2024-04-02
+Maintenant que vous avez un aperçu de ces concepts clès approfondissez en ajoutant des propriété et en modifiant le comportement aussi de votre grille que de vos animations ces liens vont vous y aider : pour les alignement dont le grid MDN LACONSOLE JENSEIGN JENSEIGN pour les animations avec lesquelles vous pouvez vous inspirer, comprendre et approfondire HUBSPOT
 
 ## Exercices pratiques
 
